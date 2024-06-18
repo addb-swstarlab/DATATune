@@ -1,7 +1,7 @@
 # DATATune: Database Parameter Tuning via Autoencoder Latent Space
 
 We verify the DATATune performance improvements on MySQL and RocksDB.
-TADA_AA is conducted on MySQL A Workload.
+TADA_AA is conducted on MySQL A Workload. &nbsp;
 TADA_BB is conducted on MySQL B Workload.
 
 ![image](https://github.com/addb-swstarlab/DATATune/assets/72485253/3a0d24b1-949e-477a-aa8e-a7904b50add7)
