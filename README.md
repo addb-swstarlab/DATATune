@@ -5,12 +5,12 @@
 We verify the DATATune performance improvements on MySQL and RocksDB.<br/>
 TADA.ipynb is conducted on MySQL A Workload.<br/> TADA_BB.ipynb is conducted on MySQL B Workload.
 
-| MySQL | Workload Index | Scale Factor | Data Size | Read | Insert | Scan | Update | Read Modify Write |
-|-------|----------------|--------------|-----------|------|--------|------|--------|-------------------|
-|       | A              | 12000        | 15GB      | 50%  | -      | -    | 50%    | -                 |
-|       | B              |              |           | 95%  | -      | -    | 5%     | -                 |
-|       | E              |              |           | -    | 5%     | 95%  | -      | -                 |
-|       | F              |              |           | 50%  | -      | -    | -      | 50%               |
+| Workload Index | Scale Factor | Data Size | Read | Insert | Scan | Update | Read Modify Write |
+|----------------|--------------|-----------|------|--------|------|--------|-------------------|
+| A              | 12000        | 15GB      | 50%  | -      | -    | 50%    | -                 |
+| B              | 12000        | 15GB      | 95%  | -      | -    | 5%     | -                 |
+| E              | 12000        | 15GB      | -    | 5%     | 95%  | -      | -                 |
+| F              | 12000        | 15GB      | 50%  | -      | -    | -      | 50%               |
 
 
 ![image](https://github.com/addb-swstarlab/DATATune/assets/72485253/3a0d24b1-949e-477a-aa8e-a7904b50add7)
