@@ -13,8 +13,11 @@ TADA.ipynb is conducted on MySQL A Workload.<br/> TADA_BB.ipynb is conducted on 
 | F              | 12000        | 15GB      | 50%  | -      | -    | -      | 50%               |
 
 
-![image](https://github.com/addb-swstarlab/DATATune/assets/72485253/3a0d24b1-949e-477a-aa8e-a7904b50add7)
-
 TADA_RocksDB_external_wk2.ipynb is conducted on RocksDB "R90W10" Workload.
-![image](https://github.com/addb-swstarlab/DATATune/assets/72485253/3c085ae8-afdf-44e2-959b-c1addc058ca4)
+| Workload Index | Value Size   | # of Entry| Read | Write  | Update | 
+|----------------|--------------|-----------|------|--------|--------|
+| R90W10         | 16384        | 15GB      | 90%  | 10%    | X     | 
+| R50W50         | 16384        | 15GB      | 50%  | 50%    | X    | 
+| R10W90         | 16384        | 15GB      | 10%   | 90%     | X  |
+| UPDATE         | 16384        | 15GB      | -  | -      | O    | 
 
