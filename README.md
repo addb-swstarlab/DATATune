@@ -1,4 +1,4 @@
-# DATATune
+# DATATune: Database Parameter Tuning via Autoencoder Latent Space
 SAC 2025 UnderReview ... 😵‍💫
 
 We propose DATATune as a novel approach that differs from trditional database parameter tuning methods.  
