@@ -1,5 +1,5 @@
 # DATATune: Database Parameter Tuning via Autoencoder Latent Space
-SAC 2025 UnderReview ... 😵‍💫
+UnderReview ... 😵‍💫
 
 We propose DATATune as a novel approach that differs from trditional database parameter tuning methods.  
 To minimize the time required for data generation, DATATune incorporates an **augmentation method for small datasets**. Moreover, it **creates a latent space** by reducing database parameter information and **optimizing all parameters**. Furthermore, by injecting external metric information in the latent space yield precise tuning results by **directly incorporating information from the target workload**.  
